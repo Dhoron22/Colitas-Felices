@@ -1,0 +1,25 @@
+.mascotas-container{
+display: flex;
+flex-wrap: wrap;/*Permite que las tarjetas salten a la siguiente fila si no caben*/
+gap:16px; /*Espacio entre los elementos*/
+justify-content: space-evenly;/*opcional:distribucion de las tarjetas*/
+padding: 16px;
+
+}
+app-mascotas{
+  flex: 0 1 300px; /*cada tarjeta tendra un ancho mayor a 300px*/
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+.auspiciantes-container{
+    display: flex;
+    flex-wrap: wrap;/*Permite que las tarjetas salten a la siguiente fila si no caben*/
+    gap:16px; /*Espacio entre los elementos*/
+    justify-content: space-evenly;/*opcional:distribucion de las tarjetas*/
+    padding: 16px;
+}
+app-auspciantes{
+    flex: 0 1 300px; /*cada tarjeta tendra un ancho mayor a 300px*/
+    box-shadow: 0 2px 5px rgba(192, 192, 192, 0.1);
+    border-radius: 8px;
+}

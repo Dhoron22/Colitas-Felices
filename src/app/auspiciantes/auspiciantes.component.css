@@ -1,0 +1,17 @@
+.auspiciante-card{
+  display: flex;/*para que el contenedor si se repite esten uno al lado del otro*/
+align-items: center;/*para que los elementos esten centrados verticalmente*/
+gap: 16px;/*espacio entre los elementos*/
+/*border: 1px solid #ccc;/*borde de 1px solido de color gris*/
+padding: 16px;/*espacio interno*/
+background-color:  #f9f9f9;/*color de fondo*/
+
+}
+.auspiciante-imagen{
+flex-shrink: 0 ;/*permite que se achique la imagen*/
+}
+.auspiciante-imagen img{
+  width:100px;/*ancho de la imagen*/
+  height: auto;/*alto de la imagen*/
+  object-fit: cover;/*para que la imagen no se deforme */
+}

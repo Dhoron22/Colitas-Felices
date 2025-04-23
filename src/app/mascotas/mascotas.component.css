@@ -1,0 +1,33 @@
+.mascotas-card{ /*CONTENEDOR DE TODA LA TARGETA*/
+    display: flex;/*para que el contenedor si se repite esten uno al lado del otro*/
+    align-items:center;/*para que los elementos esten centrados verticalmente*/
+    gap: 16px;/*espacio entre los elementos*/
+    border: 1px solid #ccc;/*borde de 1px solido de color gris*/
+    padding: 16px;/*espacio interno*/
+    background-color:  #f9f9f9;/*color de fondo*/
+    border-radius: 4px;/*bordes redondeados*/
+}
+.mascotas-imagen{
+  flex-shrink: 0 ;/*permite que se achique la imagen*/
+}
+.mascotas-imagen img {
+width: 100px;
+height: 100px;
+  object-fit: cover;/*para que la imagen no se deforme */
+}
+
+.mascotas-detail{
+  display: flex;/*para que los elementos esten uno al lado del otro*/
+  flex-direction: column;/*para que los elementos esten uno debajo del otro*/
+  justify-content: center;/*para que los elementos esten centrados horizontalmente*/
+  flex: 1;/*para que ocupe todo el espacio disponible*/
+}
+.mascotas-detail .name{
+  font-weight: bold;/*negrita*/
+  font-size: 1.2rem;/*tamaño de la fuente*/
+}
+.mascotas-detail .edad,
+.mascotas-detail .raza,
+.mascotas-detal.caracteristicas{
+  color: #666;/*color de la fuente*/
+}
