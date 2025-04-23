@@ -1,0 +1,18 @@
+footer {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 20px;
+  padding: 2rem;
+  border-top: 1px solid #ccc;
+}
+
+@media (min-width: 576px) {
+  footer {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 768px) {
+  footer {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}
